@@ -19,9 +19,9 @@ const Home = ():ReactElement => {
       return null;
     } else {
       return (
-        <div className="">
+        <>
             <RouteApp/>
-        </div>
+        </>
      )
     }
 
